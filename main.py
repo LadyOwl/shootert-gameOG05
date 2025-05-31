@@ -10,7 +10,7 @@ pygame.display.set_caption("Shooter Game")
 icon = pygame.image.load("img/ShooterDisplay.png")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/icon-target.jpg")
+target_img = pygame.image.load("img/Target.jpg")
 target_width = 80
 target_height = 80
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
